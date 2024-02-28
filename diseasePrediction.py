@@ -4,7 +4,7 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-diabetesModel = pickle.load(open('https:\\github.com\SayedNehalAhmad\diseasePrediction\blob\main\diabetes.sav', 'rb'))
+diabetesModel = pickle.load(open('diabetes.sav', 'rb'))
 
 
 with st.sidebar:
